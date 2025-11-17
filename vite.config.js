@@ -15,11 +15,9 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     target: 'es2015',
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true
-      }
-    }
+    minify: 'esbuild'
+  },
+  esbuild: {
+    drop: ['console', 'debugger']
   }
 })
