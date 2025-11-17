@@ -19,11 +19,7 @@
       <!-- Header -->
       <div class="text-center text-white mb-8">
         <div class="flex items-center justify-center mb-5">
-          <svg class="w-32 h-32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="50" cy="50" r="45" fill="white" opacity="0.1"/>
-            <circle cx="50" cy="50" r="35" fill="#B2D235"/>
-            <path d="M50 25 L65 40 L65 65 L50 75 L35 65 L35 40 Z" fill="white"/>
-          </svg>
+          <img src="@/assets/logo.png" alt="Neutral Fuels Logo" class="w-32 h-32 object-contain" />
         </div>
         <h1 class="text-3xl font-bold mb-2">Request Collection</h1>
         <p class="text-white/90">Neutral Fuels - Waste Oil Collection</p>
@@ -77,9 +73,15 @@
       </div>
 
       <!-- Footer Info -->
-      <div class="bg-white/10 backdrop-blur-md rounded-xl2 p-5 text-center shadow-soft">
+      <div class="bg-white/10 backdrop-blur-md rounded-xl2 p-5 text-center shadow-soft mb-5">
         <p class="text-white text-sm my-2">🕐 Collection requests are processed during business hours</p>
-        <p class="text-white text-sm my-2">📞 For urgent matters, contact: +971 XXX XXXX</p>
+        <p class="text-white text-sm my-2">📞 Contact: 050 891 8100 or 050 954 3119</p>
+        <p class="text-white text-sm my-2">📧 Email: homebase-uco@neutralfuels.com</p>
+      </div>
+
+      <!-- Copyright Footer -->
+      <div class="text-center text-white/80 text-xs py-4">
+        <p>&copy; 2025 Neutral Fuels LLC. All rights reserved.</p>
       </div>
     </div>
   </div>
